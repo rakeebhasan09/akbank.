@@ -33,6 +33,12 @@ Medium Screen - Others
 	.vega-trails-cntn-card {
 		row-gap: 28px;
 	}
+
+	/*---- Blog Page Here ----*/
+	.blog-footer-bottom ul {
+		flex-wrap: wrap;
+		row-gap: 5px;
+	}
 }
 
 /*
@@ -96,6 +102,26 @@ Small Screen - Tablate
 	}
 	section.blog-desc-area-rh {
 		padding-bottom: 50px;
+	}
+
+	.blog-footer-items-one {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 40px;
+	}
+	.blog-footer-items-one p {
+		padding: 0;
+	}
+	.blog-footer-bottom ul {
+		flex-wrap: wrap;
+		row-gap: 5px;
+		justify-content: center;
+	}
+	.blog-footer-bottom {
+		text-align: center;
+	}
+	.blog-footer-section {
+		padding: 55px 0;
 	}
 }
 
@@ -179,6 +205,32 @@ Small Screen - Mobile
 	}
 	.blog-details-time-wrpper ul li:first-child {
 		flex-grow: 1;
+	}
+
+	.blog-footer-section {
+		padding: 45px 0;
+	}
+	.blog-footer-items-one {
+		text-align: center;
+	}
+	.blog-footer-items-one ul {
+		justify-content: center;
+	}
+	.blog-footer-items-one p {
+		padding-top: 20px;
+	}
+	.blog-footer-bottom {
+		border-top: 1px solid #ffffffc2;
+		padding-top: 25px;
+		margin-top: 25px;
+	}
+	.blog-footer-bottom ul {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.blog-footer-bottom p {
+		text-align: center;
 	}
 }
 

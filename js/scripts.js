@@ -20,5 +20,13 @@
 			$(".full-width-search .search-box").toggleClass("d-none");
 			$(this).toggleClass("fa-solid, fa-xmark");
 		});
+
+		// Footer Accordion
+		$(".footer-accordion-items h6").click(function () {
+			$(".footer-accordion-items ul").not($(this).next()).slideUp();
+			$(".footer-accordion-items h6").not(this).removeClass("active");
+			$(this).next("ul").slideToggle();
+			$(this).toggleClass("active");
+		});
 	});
 })(jQuery);
