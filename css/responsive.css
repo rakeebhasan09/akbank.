@@ -1,7 +1,9 @@
 @media screen and (min-width: 1400px) {
-    .container {
-        max-width: 1230px;
-    }
+	.container {
+		max-width: 1230px;
+	}
+
+	/* RAKEEB'S CSS HERE */
 }
 
 /*
@@ -10,44 +12,27 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+	/* header  */
 
-/* header  */
+	.search-wrapper {
+		max-width: 300px;
+	}
+	.header-actions-links .action-btn {
+		padding: 6px 20px;
+		height: 100%;
+	}
+	.header-nav ul li a {
+		font-size: 14px;
+	}
 
-.search-wrapper {
-	max-width: 300px;
-}
-.header-actions-links .action-btn {
-	padding: 6px 20px;
-	height: 100%;
-}
-.header-nav ul li a {
-	font-size: 14px;
-}
+	/* RAKEEB'S CSS HERE */
+	.tab-list {
+		overflow-x: scroll;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.vega-trails-cntn-card {
+		row-gap: 28px;
+	}
 }
 
 /*
@@ -56,59 +41,55 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	/* header  */
 
+	.search-wrapper {
+		display: none;
+	}
+	.header-actions-links .action-btn {
+		padding: 6px 20px;
+		height: 100%;
+	}
+	.header-nav ul li a {
+		font-size: 14px;
+	}
+	.header-top {
+		display: none;
+	}
+	.header-nav {
+		display: none;
+	}
 
+	.site-logo img {
+		max-width: 178px;
+	}
+	.mobile-search-btn {
+		background: transparent;
+		border: none;
+	}
+	.menu-toggler-btn button {
+		background: transparent;
+		border: none;
+	}
 
-/* header  */
+	/* RAKEEB'S CSS HERE */
+	.tab-buttons-rh {
+		padding-top: 5px;
+		padding-bottom: 15px;
+	}
+	.tab-list {
+		overflow-x: scroll;
+	}
 
-.search-wrapper {
-	display: none;
-}
-.header-actions-links .action-btn {
-	padding: 6px 20px;
-	height: 100%;
-}
-.header-nav ul li a {
-	font-size: 14px;
-}
-.header-top {
-	display: none;
-}
-.header-nav {
-	display: none;
-}
-
-.site-logo img {
-	max-width: 178px;
-}
-.mobile-search-btn {
-	background: transparent;
-	border: none;
-}
-.menu-toggler-btn button {
-	background: transparent;
-	border: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.vega-trails-cntn-card {
+		row-gap: 15px;
+	}
+	.vega-trails-cntn-card h2 {
+		font-size: 30px;
+	}
+	.vega-trails-cntn-card p {
+		font-size: 16px;
+	}
 }
 
 /*
@@ -116,34 +97,57 @@ Small Screen - Tablate
 Small Screen - Mobile
 ====================================
 */
-@media screen and (max-width: 767px) {	
+@media screen and (max-width: 767px) {
+	/* RAKEEB'S CSS HERE */
+	.tab-buttons-rh {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	.akbank-logo a img {
+		width: 250px !important;
+	}
+	.mobile-search-icon i {
+		font-size: 23px;
+		color: #fff;
+		cursor: pointer;
+	}
 
+	.full-width-search {
+		flex-grow: 1;
+	}
+	.full-width-search .search-box {
+		width: 100%;
+		padding-right: 12px;
+	}
+	.full-width-search input {
+		width: 100%;
+		background: #fff;
+	}
+	.full-width-search input,
+	.full-width-search input::placeholder {
+		color: #606060;
+	}
+	.tab-list {
+		overflow-x: scroll;
+	}
 
+	.vega-trails-wrpper-rh {
+		padding: 24px 0;
+	}
 
+	.vega-trails-wrpper-rh .row {
+		gap: 24px;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.banner-img-rh h2 {
+		margin-bottom: 24px;
+	}
+	.vega-trails-cntn-card {
+		max-width: 100%;
+	}
+	.vega-trails-cntn-card p {
+		margin-bottom: 24px;
+	}
 }
 
 /*
@@ -152,34 +156,33 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+	/* RAKEEB'S CSS HERE */
+	.tab-buttons-rh {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	.akbank-logo a img {
+		width: 250px !important;
+	}
+	.mobile-search-icon i {
+		font-size: 23px;
+		color: #fff;
+		cursor: pointer;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.full-width-search {
+		flex-grow: 1;
+	}
+	.full-width-search .search-box {
+		width: 100%;
+		padding-right: 12px;
+	}
+	.full-width-search input {
+		width: 100%;
+		background: #fff;
+	}
+	.full-width-search input,
+	.full-width-search input::placeholder {
+		color: #606060;
+	}
 }
