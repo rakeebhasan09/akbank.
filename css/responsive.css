@@ -1,0 +1,185 @@
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1230px;
+    }
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+/* header  */
+
+.search-wrapper {
+	max-width: 300px;
+}
+.header-actions-links .action-btn {
+	padding: 6px 20px;
+	height: 100%;
+}
+.header-nav ul li a {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+/* header  */
+
+.search-wrapper {
+	display: none;
+}
+.header-actions-links .action-btn {
+	padding: 6px 20px;
+	height: 100%;
+}
+.header-nav ul li a {
+	font-size: 14px;
+}
+.header-top {
+	display: none;
+}
+.header-nav {
+	display: none;
+}
+
+.site-logo img {
+	max-width: 178px;
+}
+.mobile-search-btn {
+	background: transparent;
+	border: none;
+}
+.menu-toggler-btn button {
+	background: transparent;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
