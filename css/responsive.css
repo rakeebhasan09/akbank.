@@ -90,6 +90,13 @@ Small Screen - Tablate
 	.vega-trails-cntn-card p {
 		font-size: 16px;
 	}
+
+	.blog-desc-wrpper-rh .row {
+		gap: 70px;
+	}
+	section.blog-desc-area-rh {
+		padding-bottom: 50px;
+	}
 }
 
 /*
@@ -139,6 +146,9 @@ Small Screen - Mobile
 		gap: 24px;
 	}
 
+	.blog-desc-wrpper-rh .row {
+		gap: 35px;
+	}
 	.banner-img-rh h2 {
 		margin-bottom: 24px;
 	}
@@ -148,6 +158,28 @@ Small Screen - Mobile
 	.vega-trails-cntn-card p {
 		margin-bottom: 24px;
 	}
+	.slider-desc-card h3 {
+		margin-bottom: 20px;
+	}
+	section.blog-desc-area-rh {
+		padding-bottom: 20px;
+	}
+	.date-time-link {
+		flex-direction: column;
+		gap: 30px;
+	}
+	.blog-details-time-wrpper,
+	.blog-details-time-wrpper ul {
+		width: 100%;
+	}
+
+	.vega-trails-cntn-card a {
+		display: block !important;
+		text-align: center;
+	}
+	.blog-details-time-wrpper ul li:first-child {
+		flex-grow: 1;
+	}
 }
 
 /*
@@ -156,33 +188,4 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
-	/* RAKEEB'S CSS HERE */
-	.tab-buttons-rh {
-		padding-top: 5px;
-		padding-bottom: 10px;
-	}
-	.akbank-logo a img {
-		width: 250px !important;
-	}
-	.mobile-search-icon i {
-		font-size: 23px;
-		color: #fff;
-		cursor: pointer;
-	}
-
-	.full-width-search {
-		flex-grow: 1;
-	}
-	.full-width-search .search-box {
-		width: 100%;
-		padding-right: 12px;
-	}
-	.full-width-search input {
-		width: 100%;
-		background: #fff;
-	}
-	.full-width-search input,
-	.full-width-search input::placeholder {
-		color: #606060;
-	}
 }

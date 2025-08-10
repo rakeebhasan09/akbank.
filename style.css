@@ -627,6 +627,10 @@ img {
 		text-decoration-color 0.2s ease-in-out;
 }
 
+.vega-trails-cntn-card a:hover {
+	background-color: #920005;
+}
+
 .banner-img-rh img {
 	border-radius: 20px;
 }
@@ -695,4 +699,133 @@ img {
 	color: var(--primery-color);
 	font-weight: 600;
 	text-decoration: underline;
+}
+
+.kategories-card {
+	padding: 24px 21px;
+	border: 2px solid #ebebf0;
+	border-radius: 16px;
+	margin-bottom: 24px;
+}
+
+.content-menu-titl {
+	color: var(--primery-color);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.content-menu-list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding-top: 24px;
+}
+
+.content-menu-list li {
+	display: flex;
+	align-items: center;
+	gap: 11px;
+}
+
+.content-menu-list li i {
+	font-size: 15px;
+	color: var(--primery-color);
+}
+
+.content-menu-list li a {
+	color: #59585f;
+	font-size: 14px;
+	transition: color 0.2s ease-in-out;
+}
+
+.content-menu-list li a:hover {
+	color: var(--primery-color);
+}
+
+.recent-blog-title {
+	color: var(--primery-color);
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.single-recent-blog-card a {
+	display: block;
+}
+.single-recent-blog-card {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.blog-img {
+	width: 126px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.blog-heading {
+	width: calc(100% - 142px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.single-recent-blog {
+	border-bottom: 1px solid #ebebf0;
+	margin-bottom: 32px;
+	padding-bottom: 32px;
+}
+
+.blog-heading h6 {
+	color: #000;
+	font-weight: 500;
+}
+
+.blog-heading ul li span {
+	color: #808086;
+	font-size: 14px;
+}
+
+.rembrd {
+	border: none;
+}
+
+.blog-content-desc {
+	border-bottom: 1px solid rgb(235, 235, 235);
+}
+section.blog-desc-area-rh {
+	padding-bottom: 100px;
+}
+
+.small-screen-slider h2 {
+	color: var(--primery-color);
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 45px;
+	margin-bottom: 35px;
+}
+
+.slider-img-card > img {
+	border-radius: 20px;
+	display: block;
+	margin-bottom: 24px;
+}
+
+.slider-date-time,
+.clock span {
+	color: #808086;
+	font-size: 14px;
+}
+
+.slider-desc-card h3 {
+	color: #000;
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: 24px;
+	margin-bottom: 50px;
+}
+
+.slider-desc-card p {
+	color: #59585f;
 }
